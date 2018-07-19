@@ -25,6 +25,9 @@ ms.locfileid: "37062123"
 
 イベントドリブン アーキテクチャ (EDA) は、イベントの運用、検出、使用、および応答を含む一般的なデータ統合パターンです。 多くの場合、データ統合シナリオでは、Data Factory ユーザーがイベントに基づいてパイプラインをトリガーする必要があります。 Data Factory は [Azure Event Grid](https://azure.microsoft.com/services/event-grid/) と統合され、イベントに対してパイプラインをトリガーすることができるようになりました。
 
+> [!NOTE]
+> Event Gridに関しては[Azure Event Grid](https://azure.microsoft.com/services/event-grid/)を確認してください。本機能を利用するにあたっては、サブスクリプションがEvent Gridリソースプロバイダに登録されていることを確認してください。詳細については、[リソースプロバイダとタイプ]（../ azure-resource-manager / resource-manager-supported-services.md＃portal）を参照してください。
+
 ## <a name="data-factory-ui"></a>Data Factory UI
 
 ### <a name="create-a-new-event-trigger"></a>新しいイベント トリガーを作成する
